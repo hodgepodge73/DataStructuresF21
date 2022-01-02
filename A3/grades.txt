@@ -1,0 +1,32 @@
+ 1                                             push 1: 1
+ 2                                             push 2: 1
+ 3                                           insert 1: 1
+ 4                                           insert 2: 1
+ 5                                             delete: 0
+ 6                                           readHead: 1
+ 7                                                pop: 1
+ 8                                               next: 1
+ 9                                             isNull: 1
+10                                            newList: 1
+11                                           freeList: 1
+12                                            isEmpty: 1
+13                                           readItem: 1
+14                                       appendItem 1: 1
+15                                       appendItem 2: 1
+16                                       insertItem 1: 0
+17                                       insertItem 2: 0
+18                                        prependItem: 1
+19                                       deleteItem 1: 1
+20                                       deleteItem 2: 1
+21                                         findItem 1: 0
+22                                         findItem 2: 0
+23                                         findItem 3: 0
+24                                         findItem 4: 0
+25                                         findItem 5: 0
+26                                        findItem -1: 1
+27                                    makefile exists: 1
+28                           correct makefile options: 1
+29                                  code has comments: 1
+30                                   code is indented: 1
+========================================================
+Total:                                             22/30

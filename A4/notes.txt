@@ -1,0 +1,8 @@
+We dont do any restructuring so just note we can put it in the right spot only
+finding item should be easy
+just get MEMMNULL
+
+
+10 functions 7 days = 2 functions a day and we are laughing so do like an hour a day
+
+Start with a custom test function 

@@ -1,0 +1,149 @@
+Found list.c
+Compiling
+Found list.o
+Compilation succeeded
+################################################################################
+Compiling and linking gradeA3_push
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_push.c ~/Grading/Graders/memsys.c list.o -o gradeA3_push 1> compile.out 2> compile.err":
+Found gradeA3_push
+Compilation succeeded
+================================================================================
+push 1 passed
+================================================================================
+push 2 passed
+################################################################################
+Compiling and linking gradeA3_insert
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_insert.c ~/Grading/Graders/memsys.c list.o -o gradeA3_insert 1> compile.out 2> compile.err":
+Found gradeA3_insert
+Compilation succeeded
+================================================================================
+insert 1 passed
+================================================================================
+insert 2 passed
+################################################################################
+Compiling and linking gradeA3_delete
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_delete.c ~/Grading/Graders/memsys.c list.o -o gradeA3_delete 1> compile.out 2> compile.err":
+Found gradeA3_delete
+Compilation succeeded
+================================================================================
+delete failed
+  'Memory not freed'!='ok'
+################################################################################
+Compiling and linking gradeA3_readHead
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_readHead.c ~/Grading/Graders/memsys.c list.o -o gradeA3_readHead 1> compile.out 2> compile.err":
+Found gradeA3_readHead
+Compilation succeeded
+================================================================================
+readHead passed
+################################################################################
+Compiling and linking gradeA3_pop
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_pop.c ~/Grading/Graders/memsys.c list.o -o gradeA3_pop 1> compile.out 2> compile.err":
+Found gradeA3_pop
+Compilation succeeded
+================================================================================
+pop passed
+################################################################################
+Compiling and linking gradeA3_next
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_next.c ~/Grading/Graders/memsys.c list.o -o gradeA3_next 1> compile.out 2> compile.err":
+Found gradeA3_next
+Compilation succeeded
+================================================================================
+next passed
+################################################################################
+Compiling and linking gradeA3_isNull
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_isNull.c ~/Grading/Graders/memsys.c list.o -o gradeA3_isNull 1> compile.out 2> compile.err":
+Found gradeA3_isNull
+Compilation succeeded
+================================================================================
+isNull passed
+################################################################################
+Compiling and linking gradeA3_newList
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_newList.c ~/Grading/Graders/memsys.c list.o -o gradeA3_newList 1> compile.out 2> compile.err":
+Found gradeA3_newList
+Compilation succeeded
+================================================================================
+newList passed
+################################################################################
+Compiling and linking gradeA3_freeList
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_freeList.c ~/Grading/Graders/memsys.c list.o -o gradeA3_freeList 1> compile.out 2> compile.err":
+Found gradeA3_freeList
+Compilation succeeded
+================================================================================
+freeList passed
+################################################################################
+Compiling and linking gradeA3_isEmpty
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_isEmpty.c ~/Grading/Graders/memsys.c list.o -o gradeA3_isEmpty 1> compile.out 2> compile.err":
+Found gradeA3_isEmpty
+Compilation succeeded
+================================================================================
+isEmpty passed
+################################################################################
+Compiling and linking gradeA3_readItem
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_readItem.c ~/Grading/Graders/memsys.c list.o -o gradeA3_readItem 1> compile.out 2> compile.err":
+Found gradeA3_readItem
+Compilation succeeded
+================================================================================
+readItem passed
+################################################################################
+Compiling and linking gradeA3_appendItem
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_appendItem.c ~/Grading/Graders/memsys.c list.o -o gradeA3_appendItem 1> compile.out 2> compile.err":
+Found gradeA3_appendItem
+Compilation succeeded
+================================================================================
+appendItem 1 passed
+================================================================================
+appendItem 2 passed
+################################################################################
+Compiling and linking gradeA3_insertItem
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_insertItem.c ~/Grading/Graders/memsys.c list.o -o gradeA3_insertItem 1> compile.out 2> compile.err":
+Found gradeA3_insertItem
+Compilation succeeded
+================================================================================
+insertItem 1 failed
+  '9,8,42,7,6,5,4,3,2,1,0,'!='9,42,8,7,6,5,4,3,2,1,0,'
+================================================================================
+insertItem 2 failed
+  '9,8,7,42,6,5,4,3,2,1,0,'!='9,8,42,7,6,5,4,3,2,1,0,'
+################################################################################
+Compiling and linking gradeA3_prependItem
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_prependItem.c ~/Grading/Graders/memsys.c list.o -o gradeA3_prependItem 1> compile.out 2> compile.err":
+Found gradeA3_prependItem
+Compilation succeeded
+================================================================================
+prependItem passed
+################################################################################
+Compiling and linking gradeA3_deleteItem
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_deleteItem.c ~/Grading/Graders/memsys.c list.o -o gradeA3_deleteItem 1> compile.out 2> compile.err":
+Found gradeA3_deleteItem
+Compilation succeeded
+================================================================================
+deleteItem 1 passed
+================================================================================
+deleteItem 2 passed
+################################################################################
+Compiling and linking gradeA3_findItem
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA3_findItem.c ~/Grading/Graders/memsys.c list.o -o gradeA3_findItem 1> compile.out 2> compile.err":
+Found gradeA3_findItem
+Compilation succeeded
+================================================================================
+findItem 1 failed
+  '0'!='8'
+================================================================================
+findItem 2 failed
+  '0'!='7'
+================================================================================
+findItem 3 failed
+  '0'!='6'
+================================================================================
+findItem 4 failed
+  '0'!='5'
+================================================================================
+findItem 5 failed
+  '0'!='4'
+================================================================================
+findItem -1 passed
+Found makefile
+Correct options
+Comments
+Indentation levels are: ['', '   ', '    ', '        ', '            ', '                ']
+Assignment submitted by Ethan <ehodge@uoguelph.ca> at: Thu Oct 14 23:52:43 2021
